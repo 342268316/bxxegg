@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑";
+  }
+  #app{
+    width: 7.50rem;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    background-color: #fff;
+  }
+  .head {
+    width: 7.5rem;
+    height: 1.28rem;
+    background-color: #000;
+  }
+  .ztl {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    position: absolute;
+    top: 0;
+  }
+  .back {
+    width: 0.2rem;
+    margin-top: 0.26rem;
+    margin-left: 0.3rem;
+    float: left;
+  }
+  .mike112 {
+    text-align: center;
+    font-size: 0.31rem;
+    margin-left: 2.5rem;
+    margin-top: 0.56rem;
+    float: left;
+    color: #fff;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑";
+  }
+  #app{
+    width: 7.50rem;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    background-color: #fff;
+  }
+  .head {
+    width: 7.5rem;
+    height: 1.28rem;
+    background-color: #000;
+  }
+  .ztl {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+  }
+  .back {
+    width: 0.2rem;
+    margin-top: 0.56rem;
+    margin-left: 0.3rem;
+    float: left;
+  }
+
+  /* 内容部分 */
+  ul {
+    font-size: 0.3rem;
+  }
+  ul li img {
+    width: 0.9rem;
+    float: left;
+    margin-top: 0.24rem;
+    margin-left: 0.3rem;
+  }
+  .bt {
+    float: left;
+    position: relative;
+    margin-left: 0.25rem;
+    margin-top: 0.31rem;
+  }
+  .sj{
+   position: absolute;
+    top: 0.5rem;
+    color: #999;
+    font-size: 0.24rem
+  }
+  .dz{
+    position: absolute;
+     color: #999;
+    font-size: 0.3rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    left: 6.6rem;
+  }
+  li{
+  float: left;
+  position: relative;
+  list-style: none;
+  width: 7.5rem;
+  }
+  #img13{
+    color: #0091ff;
+  }

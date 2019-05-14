@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .details {
+            width: 7.5rem;
+            height: 13.34rem;
+            background-color: #f5f5f7;
+        }
+
+        .detailsUl {
+            background-color: #fff;
+            float: left;
+        }
+
+        .ul1 {
+            width: 7.5rem;
+            height: 2.2rem;
+        }
+
+        .ul2 {
+            width: 7.5rem;
+            height: 4.4rem;
+            margin-top: 0.23rem;
+        }
+
+        .detailsUl li {
+            list-style: none;
+            width: 7.2rem;
+            height: 1.09rem;
+            margin-left: 0.3rem;
+            border-bottom: 0.01rem solid #dadada;
+        }
+
+        .detailsUl .details_name {
+            font-size: 0.28rem;
+            color: #666666;
+            float: left;
+            font-weight: bold;
+            /* font-family: "黑体"; */
+            margin-top: 0.42rem;
+        }
+
+        .detailsUl span {
+            font-size: 0.28rem;
+            float: right;
+            font-weight: bold;
+            margin-top: 0.42rem;
+            /* text-align: right; */
+            margin-right: 0.3rem;
+        }
+
+        .blackhead {
+            width: 7.5rem;
+            height: 0.4rem;
+            float: left;
+
+        }
+
+        .blackmenu {
+            float: left;
+            width: 7.5rem;
+            height: 0.88rem;
+            background-color: #17181a;
+        }
+
+        .details_back {
+            margin-left: 0.3rem;
+            float: left;
+            width: 0.2rem;
+            height: 0.36rem;
+            margin-top: 0.222rem;
+        }
+
+        .text {
+            font-size: 0.3rem;
+            float: left;
+            color: #ffffff;
+            margin-top: 0.22rem;
+        }
+
+        .add {
+            float: left;
+            width: 0.39rem;
+            height: 0.39rem;
+            margin-left: 2.6rem;
+            margin-top: 0.25rem;
+        }
+    </style>
+
+
+    <script src="../public/js/fontsizeset.js"></script>
+</head>
+
+<body>
+    <div class="details">
+        <!-- <detailsmenu></detailsmenu> -->
+        <div class="detailsmenu">
+            <img src="../public/images/blackhead.jpg" alt="" class="blackhead">
+            <div class="blackmenu">
+                <a href='/BOX'>
+                    <img src="../public/images/切图/ios/back@2x.png" alt="" class="details_back">
+                </a>
+                <span class="text" style="margin-left: 2.5rem">{{safeboxDetails}}</span>
+            </div>
+        </div>
+        <!-- <detailsmenu></detailsmenu> -->
+        <ul class="detailsUl ul1">
+            <li>
+                <span class="details_name">
+                    {{safebox_name}}
+                </span>
+                <span class="nameContent">
+                    {{name_content}}
+                </span>
+            </li>
+            <li>
+                <span class="details_name">
+                    {{brand}}
+                </span>
+                <span class="brandContent">
+                    {{brand_content}}
+                </span>
+            </li>
+        </ul>
+        <ul class="detailsUl ul2">
+            <li>
+                <span class="details_name">
+                    {{details_num}}
+                </span>
+                <span class="numContent">
+                    {{num_content}}
+                </span>
+            </li>
+            <li>
+                <span class="details_name">
+                    {{device_ip}}
+                </span>
+                <span class="ipContent">
+                    {{ip_content}}
+                </span>
+            </li>
+            <li>
+                <span class="details_name">
+                    {{firmware}}
+                </span>
+                <span class="wareContent">
+                    {{ware_content}}
+                </span>
+            </li>
+            <li>
+                <span class="details_name">
+                    {{connect}}
+                </span>
+                <span class="cntContent">
+                    {{cnt_content}}
+                </span>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

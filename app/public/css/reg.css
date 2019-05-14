@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.regmenu{
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: #17181a;
+    float: left;
+}
+.regreturn{
+    width: 0.2rem;
+    height: 0.35rem;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.25rem;
+}
+.registerText{
+    font-size: 0.3rem;
+    color: #ffffff;
+    float: left;
+    margin-left: 2.95rem;
+    margin-top: 0.23rem;
+}
+.regblackhead{
+    width: 7.5rem;
+    height: 0.4rem;
+    float: left;
+  }
+/* -- */
+.phoneTitle{
+    width: 6.9rem;
+    height: 0.98rem;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.45rem;
+    
+}
+input{
+    outline: none;
+}
+.phonetext{
+    font-size: 0.3rem;
+    float: left;
+    font-weight: 700;
+    margin-top: 0.35rem;
+    margin-left: 0.01rem;
+}
+input::-webkit-input-placeholder{ /*WebKit browsers*/
+
+    color: #9f9f9f;
+    
+    }
+    
+    input::-moz-input-placeholder{ /*Mozilla Firefox*/
+    
+        color: #9f9f9f;
+    
+    }
+    
+    input::-ms-input-placeholder{ /*Internet Explorer*/ 
+        color: #9f9f9f;
+    
+    }
+.phonetitle{
+    color: #000;
+    font-size: 0.3rem;
+    float: left;
+    margin-top: 0.24rem;
+    margin-left: 0.88rem;
+    width: 3.4rem;
+    height: 0.5rem;
+    border: 1px solid transparent;
+}
+.codeTitle{
+    width: 6.9rem;
+    height: 0.98rem;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+    margin-left: 0.3rem;
+    
+}
+.codetext{
+    font-size: 0.3rem;
+    float: left;
+    font-weight: 700;
+    margin-top: 0.35rem;
+    margin-left: 0.01rem;
+}
+.codetitle{
+    color: #000;
+    font-size: 0.3rem;
+    float: left;
+    margin-top: 0.24rem;
+    margin-left: 0.56rem;
+    width: 3.4rem;
+    height: 0.5rem;
+    border: 1px solid transparent;
+}
+.getcode{
+    font-size: 0.3rem;
+    float: left;
+    color: #0091ff;
+    font-weight: 600;
+    margin-top: 0.35rem;
+    margin-left: 0.22rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 1.7rem;
+}
+.getcode:hover{
+    color: #0b7ace;
+}
+
+.passwordTitle{
+    width: 6.9rem;
+    height: 0.98rem;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+    margin-left: 0.3rem;
+}
+.passwordtext{
+    font-size: 0.3rem;
+    float: left;
+    font-weight: 700;
+    margin-top: 0.35rem;
+    margin-left: 0.01rem;
+}
+.passwordtitle{
+    
+    color: #000;
+    font-size: 0.3rem;
+    float: left;
+    margin-top: 0.24rem;
+    margin-left: 0.88rem;
+    width: 3.4rem;
+    height: 0.5rem;
+    border: 1px solid transparent;
+}
+.register_btn{
+    display: block;
+    width: 6.89rem;
+    height: 0.87rem;
+    background-color: #0091ff;
+    border: 1px solid #0091ff;
+    border-radius: 0.05rem;
+    margin-left: 0.3rem;
+    line-height: 0.87rem;
+    margin-top: 0.35rem;
+}
+a{
+    text-decoration: none;
+}
+.register_text{
+    display: block;
+
+    font-size: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+}
+.shang{
+    position: fixed;
+    top: 5rem
+}
+.xinxi img{
+    width: 93%;
+    margin-left: 0.27rem;
+
+}
+.xinxi{
+    position: absolute;
+    z-index: 77;
+    display: none;
+    animation-name: myfirst;
+
+    animation-duration: 3.7s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-fill-mode:forwards;
+}
+@keyframes myfirst
+{
+0% {top:-100px;}
+10% {top:0px;}
+90% {top:0px;}
+100% {top:-100px;}
+}
+
+.xinxi span{
+    position: absolute;
+    z-index: 88;
+    top: 0.7rem;
+    right: 2.8rem;
+    font-size: 0.23rem;
+    font-weight: 700;
+    color:blue;
+}
+.code,.code2{
+    font-size: 0.2rem;
+    position: absolute;
+    top: 3.12rem;
+    color:red;
+    right: 2.2rem;
+    display: none;
+}
+.code2{
+    color:green;
+}

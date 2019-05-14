@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>menu</title>
+    {% block js %}
+    <script src="../public/js/jquery.js"></script>
+    <script src="../public/js/fontsizeset.js"></script>
+    {% endblock %}
+    {% block style %}
+    <link rel="stylesheet" href="../public/css/menuList.css">
+    {% endblock %}
+
+</head>
+
+<body>
+    <div id="apop">
+        <div class="menuuu">
+            <a href="/BOX" class="cut1" id='idclick'>
+                <p><img src='{{BOX1}}' alt="" class="img111"><span id='img11' style="margin-left: 0.55rem">保险箱</span></p>
+            </a>
+            <a href="/kaimen" @click='cut_two'>
+                <p><img src='{{kaimen}}' alt=""><span id='img12'>开门记录</span></p>
+            </a>
+            <a href="/baojing" @click='cut_three'>
+                <p><img src='{{baojing}}' alt=""><span id='img13'>报警记录</span></p>
+            </a>
+            <a href="/guanlian" @click='cut_four'>
+                <p><img src="{{guanlian}}" alt=""><span id='img14'>关联用户</span></p>
+            </a>
+        </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+
+
+    <script>
+        $(document).ready(function(){
+            $('.cut1'). bind("click",function(){
+    
+                var img11=$('.img111')
+                img11.css('color','#ff0000')
+            })
+
+        })
+
+
+       // new Vue({
+       //     el: '#app',
+       //     data: {
+//
+       //     },
+       //     methods: {
+       //         cut_one() {
+       //             this.img1 = '../public/images/boxClick.png',
+       //                 img11.style.color = '#0090ff'
+       //         },
+       //         cut_two() {
+       //             this.img2 = '../public/images/lockClick.png',
+       //                 img12.style.color = '#0090ff'
+       //         },
+       //         cut_three() {
+       //             this.img2 = '../public/images/00.png',
+       //                 img13.style.color = '#0090ff'
+       //         },
+       //         cut_four() {
+       //             this.img2 = '../public/images/userClick.png',
+       //                 img14.style.color = '#0090ff'
+       //         }
+       //     }
+       // })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+.blackhead{
+    width: 7.5rem;
+    height: 0.4rem;
+    float: left;
+}
+.blackmenu{
+    float: left;
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: #000;
+}
+.persen{
+    margin-left: 0.3rem;
+    float: left;
+    width: 0.2rem;
+    margin-top: 0.222rem;
+}
+.text{
+    font-size: 0.3rem;
+    float: left;
+    color: #ffffff;
+    margin-left: 2.82rem;
+    margin-top: 0.22rem;
+}
+.add{
+    float: left;
+    width: 0.39rem;
+    height: 0.39rem;
+    margin-left: 2.6rem;
+    margin-top: 0.25rem;
+}
+.appHeader{
+}
+.user2{
+  background-color: #fff;
+  height: 13.34rem;
+}
+.prompt{
+  width: 7.5rem;
+  height: 0.8rem;
+  background-color: #f7ebbc;
+  float: left;
+}
+.titletext{
+  margin-top: 0.2rem;
+  margin-left: 0.3rem;
+  float: left;
+  font-size: 0.3rem;
+}
+.wrong{
+  width: 0.47rem;
+  height: 0.47rem;
+  float: left;
+  margin-left: 1.34rem;
+  margin-top: 0.18rem;
+}
+.linkman{
+  list-style: none;
+  float: left;
+  height: 1.4rem;
+  width: 7.2rem;
+  border-bottom:1px solid #e6e6e6;
+  margin-left: 0.3rem;
+  line-height: 1.4rem;
+}
+.phoneNumber{
+  float: left;
+  font-size: 0.3rem;
+  /* line-height: 1.4rem; */
+}
+.pic{
+  width: 0.9rem;
+  height: 0.9rem;
+  background-color: #b38eff;
+  float: left;
+  border-radius: 0.05rem;
+  margin-top: 0.2rem;
+}
+.linkmanPic{
+  width: 0.65rem;
+  height: 0.55rem;
+  float: left;
+  margin-left: 0.12rem;
+  margin-top: 0.17rem;
+}
+#img14{
+  color: #0091ff;
+}

@@ -1,0 +1,27 @@
+<!-- {% extends "menuList.html" %} -->
+{% block style %}
+<link rel="stylesheet" href="../public/css/baojing.css">
+<link rel="stylesheet" href="../public/css/menuList.css">
+{% endblock %}
+{% block content %}
+<div id="app">
+
+  <div class="head">
+    <img src="./../public/images/ztl.png" alt class="ztl">
+    <a href="/monitor">
+    <img src="./../public/images/back.png" alt class="back">
+  </a>
+    <span class="mike112">米克保险箱</span>
+  </div>
+  <!-- 内容部分 -->
+  <ul>
+    {% for item in list %}
+    <li>
+      <img src="{{item.tp}}" alt="">
+      <span class="bt">{{item.bt}} <span class="sj">{{item.sj}}</span></span>
+          <span class="dz">{{item.dz}}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

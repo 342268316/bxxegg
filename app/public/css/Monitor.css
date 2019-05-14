@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#wewewe{
+  width: 7.5rem;
+}
+.my{
+  width: 0.8rem;
+  position: absolute;
+  top: 0.51rem
+}
+#home{
+  background-color: #fff;
+  height: 13rem;
+}
+.guanggao{
+  width: 7.5rem;
+  height: 3.8rem;
+}
+.safebox_icon{
+  width: 2.4rem;
+  height: 2.46rem;
+  /* float: left; */
+  margin-left: 2.55rem;
+  margin-top: 1rem;
+}
+.homename{
+  font-size: 0.35rem;
+  /* font-weight:bolder; */
+  text-align: center;
+}
+.end_place{
+  font-size: 0.27rem;
+  color: #9a9a9a;
+  margin-left: 2.54rem;
+  margin-top: 0.17rem;
+}
+.monitorSafebox{
+  font-size: 0.3rem;
+  color: #ffffff;
+  float: left;
+  margin-left: 2.95rem;
+  margin-top: 0.25rem;
+}
+.monitor{
+  margin-top: 2.3rem;
+  float: left;
+   width: 7.5rem;
+  height: 0.98rem;
+  background-color: #0091ff;
+}
+.blackhead{
+    width: 7.5rem;
+    height: 0.4rem;
+    float: left;
+}
+.blackmenu{
+    float: left;
+    width: 7.5rem;
+    height: 0.88rem;
+}
+.persen{
+    margin-left: 0.3rem;
+    float: left;
+    width: 0.2rem;
+    margin-top: 0.222rem;
+}
+.text{
+    font-size: 0.3rem;
+    float: left;
+    color: #ffffff;
+    margin-left: 2.82rem;
+    margin-top: 0.22rem;
+}
+.add{
+    float: left;
+    width: 0.39rem;
+    height: 0.39rem;
+    margin-left: 2.6rem;
+    margin-top: 0.25rem;
+}
+.blackhead{
+  width: 7.5rem;
+  height: 0.4rem;
+  float: left;
+}
+.blackmenu{
+  float: left;
+  width: 7.5rem;
+  height: 0.88rem;
+  background-color: #000;
+}
+.persen{
+  margin-left: 0.3rem;
+  float: left;
+  width: 0.2rem;
+  margin-top: 0.222rem;
+}
+.text{
+  font-size: 0.3rem;
+  float: left;
+  color: #ffffff;
+  margin-left: 2.82rem;
+  margin-top: 0.22rem;
+}
+.add{
+  float: left;
+  width: 0.39rem;
+  height: 0.39rem;
+  margin-left: 2.6rem;
+  margin-top: 0.25rem;
+}

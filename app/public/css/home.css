@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  #app{
+    width: 100%;
+  }
+  .ztl{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top:1%;
+    float: left;
+  }
+  a{
+    text-decoration: none;
+    color: #0091ff83;
+  }
+  span{
+    font-size: 0.3rem;
+    display: inline-block;
+  }
+  .zhuce{
+    margin-top: 0.33rem;
+    margin-left: 0.6rem;
+  }
+  .wangji{
+    margin-left: 3.68rem;
+  }
+  #app,.Home {
+    width: 7.5rem;
+    height: 13.34rem;
+    width: 7.5rem;
+    height: 13.34rem;
+  }
+  .Home{
+    background: url(../images/login-ice.jpg);
+    background-size: 7.5rem 13.34rem;
+  }
+  #input_one {
+    width: 5.23rem;
+    height: 1rem;
+    border-top-right-radius: 0.20rem;
+    border-top-left-radius: 0.20rem;
+    float: left;
+    border-color: #f1f1f179;
+    margin-left: 0.52rem;
+    font-size: 0.3rem;
+    padding-left: 1.27rem;
+    color: #646262;
+    outline: none;  
+  }
+  #input_two {
+    width: 5.23rem;
+    height: 1rem;
+    float: left;
+    border-color: #f1f1f177;
+    margin-left: 0.52rem;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    font-size: 0.3rem;
+    font-size: 0.3rem;
+    padding-left: 1.27rem;
+    color: #646262;
+    outline: none;
+  }
+  #logo {
+    width: 1.85rem;
+    height: 1.85rem;
+    margin: 1.6rem 2.8rem 0.78rem 2.86rem;
+  }
+  form {
+    position: relative;
+  }
+  input::-webkit-input-placeholder {
+    color: #aab2bd;
+    font-size: 0.3rem;
+  }
+  .log {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.8rem;
+    width: 0.3rem;
+    padding-right: 0.37rem;
+    border-right: 0.01rem solid #e6e6e6;
+  }
+  .pass {
+    position: absolute;
+    top: 1.46rem;
+    left: 0.8rem;
+    width: 0.3rem;
+    padding-right: 0.37rem;
+    border-right: 0.01rem solid #e6e6e6;
+  }
+  #dl{
+    display: inline-block;
+    width: 6.5rem;
+    height: 1rem;
+    background-color: #0091ff;
+    color: #ffffff;
+    font-size: 0.3rem;
+    border-radius: 0.12rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 0.53rem;
+    border: none;
+    outline: none;
+    margin-top: 0.6rem;
+  }
+
+  /* 用户名验证 */
+  .yonghuming,.yonghuming3{
+    position: absolute;
+    top: 0.4rem;
+    z-index: 5;
+    right: 0.8rem;
+    color: red;
+    display: none;
+  }
+  .yonghuming2{
+    color: green;
+    position: absolute;
+    top: 0.4rem;
+    z-index: 5;
+    right: 0.8rem;
+    display: none;
+
+  }

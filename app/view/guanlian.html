@@ -1,0 +1,59 @@
+{% extends "menuList.html" %}
+
+
+
+{% block style %}
+<link rel="stylesheet" href="../public/css/guanlian.css">
+<link rel="stylesheet" href="../public/css/menuList.css">
+
+{% endblock %}
+
+{% block content %}
+
+<!-- 👇 -->
+<div class="user">
+  <div class="user2">
+    <div>
+      <img src="../public/images/blackhead.jpg" alt="" class="blackhead">
+      <div class="blackmenu">
+        <a href="/monitor">
+          <img src="../public/images/切图/ios/back@2x.png" alt="" class="persen">
+        </a>
+        <span class="text">保险箱</span>
+        <a href="/add">
+          <img src="../public/images/切图/ios/add@2x.png" alt="" class="add">
+        </a>
+      </div>
+    </div>
+    <div class="prompt" >
+      <!-- v-show="pan" -->
+      <span class="titletext">
+        {{text}}
+      </span>
+      <img src="./../public/images/切图/ios/Forknumber@2x.png" alt="" class="wrong" @click="del">
+    </div>
+    {% for item in list %}
+    <ul >
+      <li class="linkman">
+        <div class="pic">
+          <img src="{{item.linkmanPic}}" alt="" class="linkmanPic">
+        </div>
+        <span class="phoneNumber">
+          {{item.phonenumber}}
+        </span>
+      </li>
+    </ul>
+    {% endfor %}
+
+    {% block js %}
+    <script src="../public/js/fontsizeset.js"></script>
+    <script src="../public/js/jquery.js"></script>
+    <script>
+    $('.wrong').click(function(){
+      $(this).closest('.prompt').remove()
+    })
+    </script>
+    {% endblock %}
+  </div>
+</div>
+{% endblock %}

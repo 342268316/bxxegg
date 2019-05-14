@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#apop{
+    position: fixed;
+    top:91%;
+    width: 100%;
+    /* background-color: #9f9ff9; */
+
+}
+.menuuu{
+    height: 0.98rem;
+    border-top: 1px solid #cacaca;
+    /* border-top: 1px solid #ff0000; */
+
+}
+p{
+    width: 25%;
+    margin: 0 auto;
+    float: left;
+}
+p img{
+    height: 0.46rem;
+    margin-left: 0.65rem;
+    float: left;
+    margin-top: 0.15rem;
+}
+p span{
+    font-size: 0.20rem;
+    margin-bottom: 0.07rem;
+    float: left;
+    margin-top: 0.1rem;
+    margin-left: 0.4rem;
+    color:#777
+
+}
+

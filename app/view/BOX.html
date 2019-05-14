@@ -1,0 +1,112 @@
+{% extends "menuList.html" %}
+
+{% block content %}
+<div id="s2">
+  <div class="head1">
+
+  </div>
+  <!-- <img src="./images/bluehead.jpg" alt="" class="head"> -->
+
+  <div class="menu">
+    <a href="/monitor">
+
+      <img src="../public/images/切图/ios/back@2x.png" alt="" class="menu-left">
+    </a>
+
+    <span class="title">
+
+      米克保险箱
+    </span>
+    <a href="/xiangqing">
+      <img src="../public/images/bluemenuright.jpg" alt="" class="menu-right">
+    </a>
+  </div>
+  <!-- <router-view/> -->
+  <div class="content">
+    <p class="safetyStatus">
+      安全情况
+    </p>
+    <p class="safety">
+      安全
+    </p>
+  </div>
+  <div class="place">
+    <div class="endPlace">
+      最后位置:杭州
+    </div>
+    <div class="nowStatus">
+      当前状态:打开
+    </div>
+  </div>
+  <div class="sensibility">
+    <span class="set">
+      灵敏度设置
+    </span>
+    <span class="introduce">
+      灵敏度介绍
+    </span>
+  </div>
+  <ul class="ul">
+    <li class="li">
+      <div class="dj1"></div>
+      一级
+    </li>
+    <li class="li">
+      <div class="dj2"></div>
+      二级
+    </li>
+    <li class="li">
+      <div class="dj3"></div>
+      三级
+    </li>
+    <li class="li">
+      <div class="dj4"></div>
+      四级
+    </li>
+  </ul>
+  {% block js %}
+  <script src="../public/js/vue-2.4.0.js"></script>
+  <script src="../public/js/jquery.js"></script>
+  <script src="../public/js/BOX1.JS"></script>
+  <script>
+    $('.dj1').click(function () {
+      $('.dj1').css({ "background-color": "#0091ff" })
+      $('.dj2').css({ "background-color": "#dae1e6" })
+      $('.dj3').css({ "background-color": "#dae1e6" })
+      $('.dj4').css({ "background-color": "#dae1e6" })
+      // #0091ff
+      // #dae1e6
+    })
+
+  
+     $('.dj2').click(function () {
+      $('.dj1').css({ "background-color": "#0091ff" })
+      $('.dj2').css({ "background-color": "#0091ff" })
+      $('.dj3').css({ "background-color": "#dae1e6" })
+      $('.dj4').css({ "background-color": "#dae1e6" })
+      // #0091ff
+      // #dae1e6
+    })
+    $('.dj3').click(function () {
+      $('.dj1').css({ "background-color": "#0091ff" })
+      $('.dj2').css({ "background-color": "#0091ff" })
+      $('.dj3').css({ "background-color": "#0091ff" })
+      $('.dj4').css({ "background-color": "#dae1e6" })
+      // #0091ff
+      // #dae1e6
+    })
+    $('.dj4').click(function () {
+      $('.dj1').css({ "background-color": "#0091ff" })
+      $('.dj2').css({ "background-color": "#0091ff" })
+      $('.dj3').css({ "background-color": "#0091ff" })
+      $('.dj4').css({ "background-color": "#0091ff" })
+      // #0091ff
+      // #dae1e6
+    })
+    
+  </script>
+  <script src="../public/js/fontsizeset.js"></script>
+  <link rel="stylesheet" href="../public/css/box.css">
+  {% endblock %}
+</div>
+{% endblock %}
